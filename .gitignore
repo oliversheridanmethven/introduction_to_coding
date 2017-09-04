@@ -1,0 +1,10 @@
+# This is a list of files and folders which git should ignore.
+
+# Pycharm project folder. 
+.idea/
+
+# Virtual environment. 
+venv/
+
+# Python compiled files. 
+*.pyc
