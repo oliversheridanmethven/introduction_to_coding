@@ -30,3 +30,8 @@ appropriate application).
 
 Much of this code will be written using iPython notebooks. These are useful for interactively demonstrating the results
 from running different source code. 
+
+> I am generally not a fan of coding notebooks, but occasionally they can be useful. 
+However, they can be a pain when using VCS (such as git). To circumvent commiting the output
+of such notebooks, 
+[see the instructions on StackOverflow](https://stackoverflow.com/a/20844506/5134817). 
