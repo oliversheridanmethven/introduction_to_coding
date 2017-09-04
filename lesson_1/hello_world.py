@@ -5,5 +5,7 @@ Author:
 
 Description:
 
-    An introduction to the basic container types.
+    Hello world example.
 """
+
+print('Hello world.')
