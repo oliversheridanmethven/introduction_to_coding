@@ -4,8 +4,7 @@
  
 ### Author
 
-Oliver Sheridan-Methven.
-
+[Oliver Sheridan-Methven](mailto:oliver.sheridan-methven@maths.ox.ac.uk).
 #### Date
 
 September 2017.
@@ -13,6 +12,14 @@ September 2017.
 ### Description
 
 Introduction to coding course for Oxford International College.
+
+### Questions, issues, bugs, etc.
+
+If you have questions about the course, find bugs in the code,
+discover issues running the code, or anything similar, then please
+email me at
+[oliver.sheridan-methven@maths.ox.ac.uk](mailto:oliver.sheridan-methven@maths.ox.ac.uk).
+
 
 ### Language
 
@@ -26,6 +33,11 @@ To check open the terminal and type in `python --version`.
 In this course we will mostly be using Python 2.7 instead of Python 3. 
 This is not a major issue, but there will be some small syntactic differences between the two.
 ([For more information about *getting started* with Python](https://www.python.org/about/gettingstarted/)).
+
+> *The joy of coding Python should be in seeing short, concise, readable
+classes that express a lot of action in a small amount of clear code \-
+not in reams of trivial code that bores the reader to death.*
+\- Guido van Rossum.
 
 ## Git
 
@@ -45,14 +57,58 @@ However, they can be a pain when using VCS (such as git). To circumvent committi
 of such notebooks, 
 [see the instructions on StackOverflow](https://stackoverflow.com/a/20844506/5134817).
 
-### Syllabus
+### Course structure
 
 > This year is the first year that this course has been offered. As such
 the syllabus and topics we cover are very flexible, and can be heavily
 influenced by the students taking this course. The first few classes will
 constitute some of the basic requisites for understanding the building-blocks
-of the language, but after that any suggestions or topics which students
-would like me to include (or remove) are encouraged.
+of the language, but after that **any suggestions about topics which students
+would like me to include (or remove) are encouraged**.
+
+> Currently there is no homework required for this course, although I will
+offer various exercises to demonstrate the topics covered. Hopefully you
+will find this useful practice and interesting. Feedback on this would be
+highly appreciated.
+
+> *The only way to learn a new programming language is by writing programs
+in it.* \- Dennis Ritchie.
+
+> *Programming is a skill best acquired by practice and example rather
+than from books.* \- Alan Turing.
+
+
+#### Lesson 1 - Hello world.
+
+Writing your first program in Python. A comparison of the different programming
+languages and how to write hello world in a variety of languages. We also introduce
+some of the basics data types, containers, and operators.
+
+#### Lesson 2 - Control flow, I/O, and functions.
+
+We introduce control flow tools like `if  else`,  `while`, and `for`. We also
+show how to take use input, either from a file or interactively, and to output
+this either to a file or the screen. We also introduce how to define functions
+and consider variable scope.
+
+#### Lesson 3 - Packages
+
+We introduce the most commonly used packages in Python:
+`numpy`, `pandas`, and `matplotlib`. This will introduce the python package
+installer `pip`, namespaces, and some nice plotting features.
+
+#### Lesson 4
+#### Lesson 5
+#### Lesson 6
+#### Lesson 7
+#### Lesson 8
+#### Lesson 9
+#### Lesson 10
+#### Lesson 11
+#### Lesson 12
+
+
+## Possible topics
 
 #### The basics
 
@@ -82,9 +138,12 @@ would like me to include (or remove) are encouraged.
     - Pandas
     - Scipy
     - Sklearn
+ * `pip`
 
 #### Intermediate topics
 
+ * Iterators:
+    - Generators.
  * Functions:
     - Variable and keyword arguments.
     - Recursive functions.
@@ -97,10 +156,52 @@ would like me to include (or remove) are encouraged.
     - Inheritance.
     - Virtual/abstract methods.
     - `super`
+ * LaTeX.
+ * Storing data:
+    - JSON.
+    - Pickling.
+    - Databases (MongoDB).
+ * Dataframes.
+ * Arrays
+ * Machine learning.
+ * Symbolic programming.
+ * Garbage collection.
+ * System commands.
+ * Debugging.
+
+
+
+### Advanced topics
+
+ * Interacting with different programming languages.
+ * Automatic testing.
+ * Executables and compiled python.
+ * Cython.
+ * Parallel computing:
+    - Multicore computing, (`mpi4py`).
+    - GPU coding, (PyCuda).
+
+
+### Good practices
+
+ * Commenting code:
+    - Style guides, e.g. PEP8.
+    - Docstrings.
+    - Sphinx.
  * Virtual environments.
- * Using $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+ * Modular organisation.
+ * Project structure.
+ * Unit testing.
+ * Version control:
+    - Git.
 
+### Beyond Python
 
+ * Compiled languages, e.g. C, C++.
+ * Creating websites.
+ * Algorithm design.
+ * Pointers.
+ * Memory management.
 
 
 
