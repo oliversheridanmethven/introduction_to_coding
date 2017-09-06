@@ -16,7 +16,7 @@ Introduction to coding course for Oxford International College.
 
 ### Language
 
-Python 2.7. 
+Python 2.7.
 
 >Most of the code will be easily transferable to Python 3, 
 and there may be examples from other languages such as C, JavaScript, etc.
@@ -41,6 +41,73 @@ Much of this code will be written using iPython notebooks. These are useful for 
 from running different source code. 
 
 > I am generally not a fan of coding notebooks, but occasionally they can be useful. 
-However, they can be a pain when using VCS (such as git). To circumvent commiting the output
+However, they can be a pain when using VCS (such as git). To circumvent committing the output
 of such notebooks, 
-[see the instructions on StackOverflow](https://stackoverflow.com/a/20844506/5134817). 
+[see the instructions on StackOverflow](https://stackoverflow.com/a/20844506/5134817).
+
+### Syllabus
+
+> This year is the first year that this course has been offered. As such
+the syllabus and topics we cover are very flexible, and can be heavily
+influenced by the students taking this course. The first few classes will
+constitute some of the basic requisites for understanding the building-blocks
+of the language, but after that any suggestions or topics which students
+would like me to include (or remove) are encouraged.
+
+#### The basics
+
+ * `Hello world`.
+ * Data types:
+    - Integers.
+    - Floats.
+    - Strings.
+    - Booleans.
+    - None.
+    - NaN.
+ * Containers:
+    - Lists.
+    - Sets.
+    - Dictionaries.
+    - Tuples.
+ * Control flow:
+    - If statements.
+    - While loops.
+    - For loops.
+ * Input and output.
+ * Functions:
+    - Lambda functions.
+ * Packages:
+    - Numpy
+    - Matplotlib
+    - Pandas
+    - Scipy
+    - Sklearn
+
+#### Intermediate topics
+
+ * Functions:
+    - Variable and keyword arguments.
+    - Recursive functions.
+    - Partial functions.
+    - Function wrappers and decorators:
+        + Meta decorators
+    - Virtual functions.
+ * Classes:
+    - Public and private variables.
+    - Inheritance.
+    - Virtual/abstract methods.
+    - `super`
+ * Virtual environments.
+ * Using $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+
+
+
+
+
+
+
+
+
+
+
+
