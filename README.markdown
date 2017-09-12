@@ -161,10 +161,10 @@ installer `pip`, namespaces, and some nice plotting features.
     - JSON.
     - Pickling.
     - Databases (MongoDB).
- * Dataframes.
- * Arrays
- * Machine learning.
- * Symbolic programming.
+ * Data-frames, (`pandas.DataFrame`).
+ * Arrays, (`numpy.array`).
+ * Machine learning, (`sklearn`).
+ * Symbolic programming, (`sympy`).
  * Garbage collection.
  * System commands.
  * Debugging.
