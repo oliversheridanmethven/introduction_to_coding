@@ -163,9 +163,12 @@ installer `pip`, namespaces, and some nice plotting features.
     - Databases (MongoDB).
  * Data-frames, (`pandas.DataFrame`).
  * Arrays, (`numpy.array`).
+ * Changing values by reference or by copying. 
  * Machine learning, (`sklearn`).
  * Symbolic programming, (`sympy`).
  * Garbage collection.
+ * Object depth.
+    - Deep copy and shallow copy. 
  * System commands.
  * Debugging.
 
