@@ -183,6 +183,7 @@ installer `pip`, namespaces, and some nice plotting features.
  * Parallel computing:
     - Multicore computing, (`mpi4py`).
     - GPU coding, (PyCuda).
+ * Asynchronous programming. 
 
 
 ### Good practices
