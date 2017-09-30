@@ -69,7 +69,8 @@ would like me to include (or remove) are encouraged**.
 > Currently there is no homework required for this course, although I will
 offer various exercises to demonstrate the topics covered. Hopefully you
 will find this useful practice and interesting. Feedback on this would be
-highly appreciated.
+highly appreciated. Each lesson will have a file named `exercises` in it,
+please have a try at the tasks presented here.
 
 > *The only way to learn a new programming language is by writing programs
 in it.* \- Dennis Ritchie.
@@ -97,8 +98,19 @@ We introduce the most commonly used packages in Python:
 `numpy`, `pandas`, and `matplotlib`. This will introduce the python package
 installer `pip`, namespaces, and some nice plotting features.
 
-#### Lesson 4
-#### Lesson 5
+#### Lesson 4 - More functionality.
+
+More advanced functionality and function calls are explained,
+introducing variable and keyword arguments. Resetting default
+values is shown using `partial`, and we show how to vectorise 
+functions with the `vectorize` wrapper. This leads to an 
+introduction of some function wrappers and decorators. 
+
+We introduce generators and `yield`, and showcase their use with some examples
+of prime number generation. 
+
+ 
+#### Lesson 5 - Classes.
 #### Lesson 6
 #### Lesson 7
 #### Lesson 8
