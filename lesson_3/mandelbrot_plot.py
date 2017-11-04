@@ -28,6 +28,7 @@ rc_fonts = {
 }
 mpl.rcParams.update(rc_fonts)
 import matplotlib.pylab as plt
+from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 from functools import partial
 
@@ -56,7 +57,7 @@ def f(c, N=100):
 #  Setting up the grid.
 xl, xu = -2.0, 0.6
 yl, yu = -1.3, 1.3
-n = 800  # Grid resolution
+n = 500  # Grid resolution
 x = np.outer(np.linspace(xl, xu, n), np.ones(n))
 y = np.outer(np.linspace(yl, yu, n), np.ones(n)).T
 xv = np.array(zip(np.concatenate(x), np.concatenate(y)))
@@ -69,3 +70,4 @@ plt.xticks([])
 plt.yticks([])
 plt.title('The Mandelbrot set')
 # plt.savefig('lesson_3/mandelbrot_set.pdf', format='pdf', bbox_inches='tight')
+
