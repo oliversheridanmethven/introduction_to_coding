@@ -111,7 +111,17 @@ of prime number generation.
 
  
 #### Lesson 5 - Classes.
-#### Lesson 6
+#### Lesson 6 - Requested topics.
+
+The current list of topics which have been requested by students include:
+ * Algorithm design ajupyter nd analysis.
+ * Overview of hardware and underlying processes.
+    - Difference and similarities between OOP and functional programming.
+    - Von Neumann architecture:
+        + Differences between operation limited and bandwidth limited programms.
+        + CPU and GPU structures.
+
+
 #### Lesson 7
 #### Lesson 8
 #### Lesson 9
