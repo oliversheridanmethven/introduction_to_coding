@@ -10,6 +10,7 @@ Description:
 
 # Makes nice plots.
 import matplotlib as mpl
+
 mpl.use("TkAgg")
 rc_fonts = {
     "text.usetex": True,
@@ -37,10 +38,11 @@ def f(c, N=100):
     """
     Colour scheme for the Mandelbrot set.
     :param c: Complex Number
-    :return: Float, fraction of iterations until c left the mandlebrot set.
+    :return: Float, fraction of iterations until c left the Mandlebrot set.
                 Values close to 1 -> Black.
                 Values close to 0 -> White.
     """
+
     def p(z, c):
         """ The Mandelbrot iterative function """
         return z ** 2 + c
@@ -53,6 +55,7 @@ def f(c, N=100):
         l[i] = p(l[i - 1])
     l[-1] = 2 + 1  # Ensure the final value is outside the set so the generator finds a value.
     return (1.0 * (k for k, v in enumerate(l) if np.abs(v) > 2.0).next()) / N
+
 
 #  Setting up the grid.
 xl, xu = -2.0, 0.6
@@ -70,4 +73,3 @@ plt.xticks([])
 plt.yticks([])
 plt.title('The Mandelbrot set')
 # plt.savefig('lesson_3/mandelbrot_set.pdf', format='pdf', bbox_inches='tight')
-
