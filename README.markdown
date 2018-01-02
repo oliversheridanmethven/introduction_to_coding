@@ -111,19 +111,32 @@ of prime number generation.
 
  
 #### Lesson 5 - Classes.
-#### Lesson 6 - Requested topics.
+
+Classes are introduced and we introduce the basic class structure drawing
+attention to the notion of class variables and methods. We will show the 
+ideas behind class inheritance introducing the notion of the super-class
+structure for good practice. 
+
+#### Lesson 6 - Operator overloading
+
+Using classes as an example, we will demonstrate the concept of operator 
+overloading.
+
+#### Lesson 7 - Advances classes.
+
+We introduce the notion of public and private class variables, and 
+demonstrate virtual functions and abstract base classes. 
+
+#### Lesson 8 - Requested topics.
 
 The current list of topics which have been requested by students include:
- * Algorithm design ajupyter nd analysis.
+ * Algorithm design and analysis.
  * Overview of hardware and underlying processes.
     - Difference and similarities between OOP and functional programming.
     - Von Neumann architecture:
         + Differences between operation limited and bandwidth limited programms.
         + CPU and GPU structures.
-
-
-#### Lesson 7
-#### Lesson 8
+        
 #### Lesson 9
 #### Lesson 10
 #### Lesson 11
