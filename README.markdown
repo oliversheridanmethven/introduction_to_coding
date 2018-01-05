@@ -21,6 +21,21 @@ email me at
 [oliver.sheridan-methven@maths.ox.ac.uk](mailto:oliver.sheridan-methven@maths.ox.ac.uk).
 
 
+## Getting started
+
+Prior to getting started on this course I ***strongly recommend*** doing the following:
+
+1. Install Python 2.7 - The latest version is Python 2.7.14 and can be downloaded from 
+the [Python downloads webpage](https://www.python.org/downloads/).
+2. Install PyCharm - PyCharm is what we will be using to write and edit code. The community
+edition is free to use and can be downloaded from the  
+[PyCharm downloads webpage](https://www.jetbrains.com/pycharm/download/).
+
+>Don't install these as an administrator, but install them with regular user permissions 
+(**default installation**). 
+
+## Course information
+
 ### Language
 
 Python 2.7.
@@ -57,7 +72,7 @@ However, they can be a pain when using VCS (such as git). To circumvent committi
 of such notebooks, 
 [see the instructions on StackOverflow](https://stackoverflow.com/a/20844506/5134817).
 
-### Course structure
+## Course structure
 
 > This year is the first year that this course has been offered. As such
 the syllabus and topics we cover are very flexible, and can be heavily
@@ -79,13 +94,13 @@ in it.* \- Dennis Ritchie.
 than from books.* \- Alan Turing.
 
 
-#### Lesson 1 - Hello world.
+#### Lesson 1 - Hello world
 
 Writing your first program in Python. A comparison of the different programming
 languages and how to write hello world in a variety of languages. We also introduce
 some of the basics data types, containers, and operators.
 
-#### Lesson 2 - Control flow, I/O, and functions.
+#### Lesson 2 - Control flow, I/O, and functions
 
 We introduce control flow tools like `if  else`,  `while`, and `for`. We also
 show how to take use input, either from a file or interactively, and to output
@@ -98,7 +113,7 @@ We introduce the most commonly used packages in Python:
 `numpy`, `pandas`, and `matplotlib`. This will introduce the python package
 installer `pip`, namespaces, and some nice plotting features.
 
-#### Lesson 4 - More functionality.
+#### Lesson 4 - More functionality
 
 More advanced functionality and function calls are explained,
 introducing variable and keyword arguments. Resetting default
@@ -110,7 +125,7 @@ We introduce generators and `yield`, and showcase their use with some examples
 of prime number generation. 
 
  
-#### Lesson 5 - Classes.
+#### Lesson 5 - Classes
 
 Classes are introduced and we introduce the basic class structure drawing
 attention to the notion of class variables and methods. We will show the 
@@ -122,12 +137,12 @@ structure for good practice.
 Using classes as an example, we will demonstrate the concept of operator 
 overloading.
 
-#### Lesson 7 - Advances classes.
+#### Lesson 7 - Advances classes
 
 We introduce the notion of public and private class variables, and 
 demonstrate virtual functions and abstract base classes. 
 
-#### Lesson 8 - Requested topics.
+#### Lesson 8 - Requested topics
 
 The current list of topics which have been requested by students include:
  * Algorithm design and analysis.
@@ -168,12 +183,12 @@ The current list of topics which have been requested by students include:
  * Functions:
     - Lambda functions.
  * Packages:
-    - Numpy
-    - Matplotlib
-    - Pandas
-    - Scipy
-    - Sklearn
- * `pip`
+    - Numpy.
+    - Matplotlib.
+    - Pandas.
+    - Scipy.
+    - Sklearn.
+ * `pip`.
 
 #### Intermediate topics
 
