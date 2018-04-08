@@ -12,6 +12,10 @@ April 2018.
 
 Introduction to coding course.
 
+#### Website
+
+[https://github.com/oliversheridanmethven/introduction_to_coding](https://github.com/oliversheridanmethven/introduction_to_coding).
+
 ### Questions, issues, bugs, etc.
 
 If you have questions about the course, find bugs in the code,
@@ -49,8 +53,10 @@ To check, open the terminal and type in `python --version`.
 In this course we will mostly be using Python 2.7 instead of Python 3. 
 This is not a major issue, but there will be some small syntactic differences between the two.
 ([For more information about *getting started* with Python](https://www.python.org/about/gettingstarted/)).
-
-![Python version](figures/python_version.gif)
+>  
+>![Python version](figures/python_version.gif)
+>  
+> The default python version I am using on my machine is Python 2.7.12. 
 
 
 > *The joy of coding Python should be in seeing short, concise, readable
@@ -78,8 +84,7 @@ of such notebooks,
 
 ## Course structure
 
-> This year is the first year that this course has been offered. As such
-the syllabus and topics we cover are very flexible, and can be heavily
+> The syllabus and topics we cover are very flexible, and can be heavily
 influenced by the students taking this course. The first few classes will
 constitute some of the basic requisites for understanding the building-blocks
 of the language, but after that **any suggestions about topics which students
@@ -89,7 +94,7 @@ would like me to include (or remove) are encouraged**.
 offer various exercises to demonstrate the topics covered. Hopefully you
 will find this useful practice and interesting. Feedback on this would be
 highly appreciated. Each lesson will have a file named `exercises` in it,
-please have a try at the tasks presented here.
+**please have a try at the tasks presented here**.
 
 > *The only way to learn a new programming language is by writing programs
 in it.* \- Dennis Ritchie.
@@ -97,6 +102,7 @@ in it.* \- Dennis Ritchie.
 > *Programming is a skill best acquired by practice and example rather
 than from books.* \- Alan Turing.
 
+#### Lesson 0 - Getting set up
 
 #### Lesson 1 - Hello world
 
