@@ -1,17 +1,20 @@
-# Oxford International College
-
-## Introduction to coding
+# Introduction to coding
  
 ### Author
 
 [Oliver Sheridan-Methven](mailto:oliver.sheridan-methven@maths.ox.ac.uk).
+
 #### Date
 
-September 2017.
+April 2018.
 
 ### Description
 
-Introduction to coding course for Oxford International College.
+Introduction to coding course.
+
+#### Website
+
+[https://github.com/oliversheridanmethven/introduction_to_coding](https://github.com/oliversheridanmethven/introduction_to_coding).
 
 ### Questions, issues, bugs, etc.
 
@@ -28,11 +31,13 @@ Prior to getting started on this course I ***strongly recommend*** doing the fol
 1. Install Python 2.7 - The latest version is Python 2.7.14 and can be downloaded from 
 the [Python downloads webpage](https://www.python.org/downloads/).
 2. Install PyCharm - PyCharm is what we will be using to write and edit code. The community
-edition is free to use and can be downloaded from the  
+edition is free to use and can be downloaded from the 
 [PyCharm downloads webpage](https://www.jetbrains.com/pycharm/download/).
 
 >Don't install these as an administrator, but install them with regular user permissions 
 (**default installation**). 
+
+
 
 ## Course information
 
@@ -44,10 +49,15 @@ Python 2.7.
 and there may be examples from other languages such as C, JavaScript, etc.
 Before diving into Python, it is useful to install Python (if using MS Windows). 
 If you are running UNIX/LINUX/OSX then you will most likely already have this installed. 
-To check open the terminal and type in `python --version`. 
+To check, open the terminal and type in `python --version`. 
 In this course we will mostly be using Python 2.7 instead of Python 3. 
 This is not a major issue, but there will be some small syntactic differences between the two.
 ([For more information about *getting started* with Python](https://www.python.org/about/gettingstarted/)).
+>  
+>![Python version](figures/python_version.gif)
+>  
+> The default python version I am using on my machine is Python 2.7.12. 
+
 
 > *The joy of coding Python should be in seeing short, concise, readable
 classes that express a lot of action in a small amount of clear code \-
@@ -74,8 +84,7 @@ of such notebooks,
 
 ## Course structure
 
-> This year is the first year that this course has been offered. As such
-the syllabus and topics we cover are very flexible, and can be heavily
+> The syllabus and topics we cover are very flexible, and can be heavily
 influenced by the students taking this course. The first few classes will
 constitute some of the basic requisites for understanding the building-blocks
 of the language, but after that **any suggestions about topics which students
@@ -85,7 +94,7 @@ would like me to include (or remove) are encouraged**.
 offer various exercises to demonstrate the topics covered. Hopefully you
 will find this useful practice and interesting. Feedback on this would be
 highly appreciated. Each lesson will have a file named `exercises` in it,
-please have a try at the tasks presented here.
+**please have a try at the tasks presented here**.
 
 > *The only way to learn a new programming language is by writing programs
 in it.* \- Dennis Ritchie.
@@ -93,6 +102,7 @@ in it.* \- Dennis Ritchie.
 > *Programming is a skill best acquired by practice and example rather
 than from books.* \- Alan Turing.
 
+#### Lesson 0 - Getting set up
 
 #### Lesson 1 - Hello world
 
